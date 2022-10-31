@@ -19,8 +19,6 @@ jobs:
     strategy:
       matrix:
         configuration:
-          - name: Pinebook Pro
-            script: ./build-pinebookpro.sh
 
           - name: Raspberry Pi
             script: ./build-rpi.sh
